@@ -1,0 +1,166 @@
+body{
+    max-width: 1664px;
+    margin: 0 auto;
+}
+.section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.section h2.section-heading{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section h2.section-heading:after{
+    background-color: orangered;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 4px;
+    margin: 15px auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    color: white;
+    background-color: black;
+    width: 100%;
+    max-width: 1640px;
+    position: fixed;
+}
+#menu{
+    float: right;
+    list-style: none;
+    margin-top: 15px;
+    padding: 0;
+}
+.logo  i{
+    color: orangered;
+    font-size: 30px;
+    margin-top: 30px;
+    display:flex;
+    align-items: center;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: white;
+    padding: 15px 10px;
+    display: block;
+    font-weight: bolder;
+}
+#menu li a:hover{
+    border-radius: 5px;
+    background-color: orangered;  
+}
+.logotext{
+    font-size: 15px;
+    color: white;
+    padding-left: 20px;
+    letter-spacing: 10px;
+}
+@media (max-width:768px){
+    #menu li{
+        display: none;
+    }
+}
+#banner{
+    background: url('images/banner2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-title h1{
+    display: inline-block;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.banner-title h1 .title-span{
+    color: orangered;
+}
+.banner-title .lead{
+    margin-bottom: 70px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.services-box{
+    text-align: center;
+}
+.services-box i{
+    color: orangered;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+#testmonials{
+    color: white;
+    background:url('images/textbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 70px 0; 
+}
+
+.testmonial{
+    text-align: center;
+}
+.testmonial p{
+    color: rgb(255, 255, 255);
+}
+.testmonial img{
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width:150px;
+}
+.testmonial .author{
+    color: orangered;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.news-post img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.news-post h3{
+    font-size: 24px;
+}
+.news-post h3 a{
+    color: orangered;
+}
+.post-date{
+    font-size: 15px;
+    margin-bottom: 3px;
+}
+.post-date:before{
+    content: "\f073";
+    font-family: FontAwesome;
+    padding-right: 10px;
+}
+a.readmore{
+    color: orangered;
+    font-size: 15px;
+}
+a.readmore:after{
+    content: "\f101";
+    font-family: FontAwesome;
+    padding-left: 10px;
+}
+.fotter{
+    background-color: black;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    color: white;
+}
+
+.fotter .title-span{
+    color: orangered;
+    font-weight: bolder;
+}
+
+
+
+
+
+
+
